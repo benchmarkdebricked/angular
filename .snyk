@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2019-06-11T12:17:18.170Z'
+    - '@bazel/karma > karma > dom-serialize > extend':
+        patched: '2019-06-11T12:17:18.170Z'
+    - karma-browserstack-launcher > browserstack > https-proxy-agent > extend:
+        patched: '2019-06-11T12:17:18.170Z'
+    - karma-browserstack-launcher > browserstacktunnel-wrapper > https-proxy-agent > extend:
+        patched: '2019-06-11T12:17:18.170Z'
+    - protractor > webdriver-manager > request > extend:
+        patched: '2019-06-11T12:17:18.170Z'
+    - karma-browserstack-launcher > browserstack > https-proxy-agent > agent-base > extend:
+        patched: '2019-06-11T12:17:18.170Z'
+    - karma-browserstack-launcher > browserstacktunnel-wrapper > https-proxy-agent > agent-base > extend:
+        patched: '2019-06-11T12:17:18.170Z'
