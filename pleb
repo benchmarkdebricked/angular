@@ -1,0 +1,7 @@
+"@angular-devkit/schematics@8.0.0-beta.15", "@angular-devkit/schematics@^8.0.0-beta.15":
+  version "8.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.0.0-beta.15.tgz#fefb6f3dd3e6638f3484fc96a5fbbfc89732ba7b"
+  integrity sha512-XtOB6m0RjDfeNpiq1Zs6OelDwBL7dk7LBAICnYGpvexUKoksgFR6klQEbOconV+WB0YAYQqcqoTq5q9GI9s1ZA==
+  dependencies:
+    "@angular-devkit/core" "8.0.0-beta.15"
+    rxjs "6.4.0"
